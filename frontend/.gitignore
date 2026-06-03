@@ -1,0 +1,11 @@
+.nextignore
+node_modules/
+.next/
+out/
+dist/
+build/
+*.log
+.env.local
+.DS_Store
+.vscode/
+.idea/
