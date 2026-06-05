@@ -1,4 +1,4 @@
-"""Improved ChatPanel component with better streaming support."""
+// /** Improved ChatPanel component with better streaming support. */
 
 'use client'
 
