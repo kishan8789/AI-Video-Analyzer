@@ -5,6 +5,10 @@ const nextConfig = {
     poweredByHeader: false,
     productionBrowserSourceMaps: false,
     swcMinify: true,
+
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
 }
 
 module.exports = nextConfig

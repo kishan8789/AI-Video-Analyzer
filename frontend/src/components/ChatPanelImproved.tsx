@@ -1,4 +1,4 @@
-// /** Improved ChatPanel component with better streaming support. */
+
 
 'use client'
 
@@ -141,8 +141,8 @@ export default function ChatPanelImproved({
                         >
                             <div
                                 className={`max-w-xs lg:max-w-md px-4 py-3 rounded-lg ${msg.role === 'user'
-                                        ? 'bg-purple-600 text-white'
-                                        : 'bg-slate-700 text-gray-100'
+                                    ? 'bg-purple-600 text-white'
+                                    : 'bg-slate-700 text-gray-100'
                                     }`}
                             >
                                 <p className="text-sm whitespace-pre-wrap">{msg.content}</p>
